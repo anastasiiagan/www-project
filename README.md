@@ -1,5 +1,5 @@
 Jest to aplikacja Rest Api, nie zawiera fronendu, a testowana jest przy pomocy Postman.\
-Projekt miał na celu stworzyć backend do prostej aplikacji z autoryzacją użytkowników. Jako bazę danych wykorzystuję bazę MongoDb przy pomocy pakietu mongoose, za pomocą którego łączę się z bazą na MongoDb Cloud. Baza zawiera 3 tablice: users, posts oraz recommendations. Użytkownicy mogą robić tak zwane posty z ciekawymi pomysłami oraz przemyśleniami bądź udstępniać rekomendacje do stron internetwych, które mają ciekawą i korzystną zawartość.
+Projekt miał na celu stworzyć backend do prostej aplikacji z autoryzacją użytkowników. Jako bazę danych wykorzystuję bazę MongoDb przy pomocy pakietu mongoose, za pomocą którego łączę się z bazą na MongoDb Cloud. Baza zawiera 3 tablice: users, posts oraz recommendations. Użytkownicy mogą robić tak zwane posty z ciekawymi pomysłami oraz przemyśleniami bądź udostępniać rekomendacje do stron internetwych, które mają ciekawą i korzystną zawartość.
 
 Aby zrealizować projekt, korzystam z takich technologii jak NodeJS, ExpressJS oraz MongoDB. Przy pomocy pakietu '@hapi/joi' weryfikuję poprawność przesłanych danych w body requestu, biblioteki 'bcryptjs' oraz 'jsonwebtoken' wspomagają zaszyfrowanie hasła użytkownika oraz walidacji, czy konkretny użytkownik jest zalogowany i ma prawo do wykonywania różnych czynności. 
 
